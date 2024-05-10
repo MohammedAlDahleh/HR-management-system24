@@ -24,7 +24,9 @@ Employee.prototype.calculating = function () {
 }
 Employee.prototype.generateID = function(){
  return (Math.floor(Math.random() * 10000) + 10000).toString().substring(1);
+
 }
+
 Employee.prototype.render = function () {
 
 
@@ -86,3 +88,4 @@ function handleSubmit(event){
   newEmp.render();
   
 }
+
